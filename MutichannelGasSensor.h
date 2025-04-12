@@ -40,6 +40,8 @@
     #define _SERIAL SerialUSB
 #elif defined(ARDUINO_ARCH_SEEED_STM32F4)
     #define _SERIAL SerialUSB
+#elif defined (ARDUINO_ARCH_ESP32)
+    #define _SERIAL Serial
 #elif defined (ARDUINO_ARCH_SAMD)
     #define _SERIAL Serial
 #elif defined (ARDUINO_ARCH_AVR)
